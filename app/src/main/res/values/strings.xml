@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">MyPictureBook</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">ドラムの構成楽器</string>
+    <string name="pic1_name">スネアドラム</string>
+    <string name="pic1_desc"></string>
+    <string name="pic2_name">バスドラム</string>
+    <string name="pic2_desc"></string>
+    <string name="pic3_name">ハイハット</string>
+    <string name="pic3_desc"></string>
+
 </resources>
