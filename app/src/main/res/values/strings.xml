@@ -2,10 +2,10 @@
     <string name="app_name">MyPictureBook</string>
     <string name="title">ドラムの構成楽器</string>
     <string name="pic1_name">スネアドラム</string>
-    <string name="pic1_desc"></string>
+    <string name="pic1_desc">ッターンって鳴るいわゆる小太鼓です。</string>
     <string name="pic2_name">バスドラム</string>
-    <string name="pic2_desc"></string>
+    <string name="pic2_desc">ドンドン鳴るいわゆる大太鼓です。足のペダルで演奏します。</string>
     <string name="pic3_name">ハイハット</string>
-    <string name="pic3_desc"></string>
+    <string name="pic3_desc">足元の音色で開け閉めしてチッとかツーとか鳴らすやつです。</string>
 
 </resources>

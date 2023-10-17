@@ -7,7 +7,7 @@
     tools:context=".Fragment1">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/snare_title"
         android:layout_width="157dp"
         android:layout_height="46dp"
         android:text="@string/pic1_name"
@@ -15,4 +15,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/snare_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/snare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snare_title" />
+
+    <TextView
+        android:id="@+id/snare_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pic1_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snare_pic" />
 </androidx.constraintlayout.widget.ConstraintLayout>

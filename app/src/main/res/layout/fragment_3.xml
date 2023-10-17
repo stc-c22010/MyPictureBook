@@ -7,12 +7,30 @@
     tools:context=".Fragment3">
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="60dp"
-        android:layout_height="20dp"
-        android:text="3"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/hihat_title"
+        android:layout_width="127dp"
+        android:layout_height="33dp"
+        android:text="@string/pic3_name"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="197dp"
+        android:layout_height="256dp"
+        android:src="@drawable/hihat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hihat_title" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pic3_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
