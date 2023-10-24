@@ -18,6 +18,7 @@ public class SubActivity extends AppCompatActivity {
         Button btn1 = findViewById(R.id.button1);
         Button btn2 = findViewById(R.id.button2);
         Button btn3 = findViewById(R.id.button3);
+        Button btn4 = findViewById(R.id.button4);
         Button bt_back = findViewById(R.id.btn_back);
         Button bt_next = findViewById(R.id.btn_next);
         ButtonClickListener listener = new ButtonClickListener();
@@ -25,6 +26,7 @@ public class SubActivity extends AppCompatActivity {
         btn1.setOnClickListener(listener);
         btn2.setOnClickListener(listener);
         btn3.setOnClickListener(listener);
+        btn4.setOnClickListener(listener);
         bt_back.setOnClickListener(listener);
         bt_next.setOnClickListener(listener);
     }
@@ -39,7 +41,7 @@ public class SubActivity extends AppCompatActivity {
 
             int id = view.getId();
             idx += 1;
-            if(idx >= 3){
+            if(idx >= 4){
                 idx = 0;
             }
 
@@ -55,6 +57,10 @@ public class SubActivity extends AppCompatActivity {
                 transaction.replace(R.id.frag_view_pic, new Fragment3());
                 idx = 2;
             }
+            else if(id == R.id.button4){
+                transaction.replace(R.id.frag_view_pic, new Fragment4());
+                idx = 3;
+            }
             else if(id == R.id.btn_next){
                 if(idx == 0){
                     transaction.replace(R.id.frag_view_pic, new Fragment1());
@@ -64,6 +70,9 @@ public class SubActivity extends AppCompatActivity {
                 }
                 else if(idx == 2){
                     transaction.replace(R.id.frag_view_pic, new Fragment3());
+                }
+                else if(idx == 3){
+                    transaction.replace(R.id.frag_view_pic, new Fragment4());
                 }
             }
 

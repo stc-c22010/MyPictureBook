@@ -7,6 +7,10 @@
     <string name="pic2_desc">ドンドン鳴るいわゆる大太鼓です。足のペダルで演奏します。</string>
     <string name="pic3_name">ハイハット</string>
     <string name="pic3_desc">足元のペダルで開け閉めすると音色が変わる、チッとかツーとか鳴る楽器です。</string>
+    <string name="pic4_name">シンバル</string>
+    <string name="pic4_desc">シャーンと鳴る楽器です。小説頭とか盛り上がるとこで鳴らします。</string>
     <string name="bt_back">タイトル画面に戻る</string>
     <string name="bt_next">次の画像</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
