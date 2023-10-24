@@ -15,9 +15,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageButton btn = findViewById(R.id.imageButton);
+        ImageButton btn_xlarge = findViewById(R.id.imageButton_xlarge);
         ButtonClickListener listener = new ButtonClickListener();
+        if(btn != null) {
+            btn.setOnClickListener(listener);
+        }
+        if(btn_xlarge != null){
+            btn_xlarge.setOnClickListener(listener);
+        }
 
-        btn.setOnClickListener(listener);
+
     }
 
     private class ButtonClickListener implements View.OnClickListener{
