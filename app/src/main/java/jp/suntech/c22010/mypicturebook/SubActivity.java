@@ -32,7 +32,7 @@ public class SubActivity extends AppCompatActivity {
     }
 
     private class ButtonClickListener implements View.OnClickListener{
-        int idx = 2;
+        int idx = 3;
         @Override
         public void onClick(View view){
 
